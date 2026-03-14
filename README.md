@@ -42,7 +42,7 @@ gcsfuse is pre-installed. Just authenticate and mount:
 ```bash
 gcloud auth application-default login  # if not already authenticated
 mkdir ./data/gcs_mount # if does not exist
-gcsfuse --implicit-dirs cs229-central ./data/gcs_mount
+gcsfuse --implicit-dirs cs229_public ./data/gcs_mount
 ```
 
 **On Linux (local development):**
@@ -56,7 +56,7 @@ sudo apt-get update && sudo apt-get install gcsfuse
 # Authenticate and mount
 gcloud auth application-default login # if not already authenticated
 mkdir ./data/gcs_mount  # if does not exist
-gcsfuse --implicit-dirs cs229-central ./data/gcs_mount
+gcsfuse --implicit-dirs cs229_public ./data/gcs_mount
 ```
 
 **Verify mount:**
@@ -121,10 +121,10 @@ Each model has its own README with detailed instructions:
 
 | Feature | Dim | Description | GCS Path |
 |---------|-----|-------------|----------|
-| Scalar | 3 | RMSD, Rg, TM3-TM6 distance | `data/processed/features_50pct/scalar/` |
-| TICA | 5 | Top-5 slow mode projections | `data/processed/features_50pct/tica/projections/` |
-| Combined | 58 | All handcrafted features | `data/processed/combined_features/combined_50pct/` |
-| Oracle | 7 | TICA + cluster features (upper bound) | `data/processed/features_50pct/sanity_check_features/` |
+| Scalar | 3 | RMSD, Rg, TM3-TM6 distance | `data/features_50pct/scalar/` |
+| TICA | 5 | Top-5 slow mode projections | `data/features_50pct/tica/projections/` |
+| Combined | 58 | All handcrafted features | `data/features_50pct/combined_features/` |
+| Oracle | 7 | TICA + cluster features (upper bound) | `data/features_50pct/oracle_features/` |
 | ESM-IF | 512 | Per-residue structural embeddings | `data/raw_esmif_chunks/` |
 
 ### Train/Test Splits

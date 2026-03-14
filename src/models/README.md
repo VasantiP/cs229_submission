@@ -63,7 +63,7 @@ gs://cs229-md/data/raw_esmif_chunks/
 Before training, generate the chunk-level train/test CSVs from the protein-level split:
 
 ```bash
-cd /path/to/cs229-md-prediction/models
+cd /path/to/cs229_submission/models
 ./run_remap.sh
 # Outputs: /tmp/emb_bootstrap_train/test_chunks_newsplit.csv
 ```

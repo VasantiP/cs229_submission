@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-TRAIN_RECEPTORS=cs229-md-prediction/data/processed/train_receptors_v3_deduped.csv
-TEST_RECEPTORS=cs229-md-prediction/data/processed/test_receptors_v3_deduped.csv
+TRAIN_RECEPTORS=cs229_submission/data/processed/train_receptors_v3_deduped.csv
+TEST_RECEPTORS=cs229_submission/data/processed/test_receptors_v3_deduped.csv
 
 cd "$(dirname "$0")"
 

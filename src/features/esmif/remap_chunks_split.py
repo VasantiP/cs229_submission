@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 
-BASE_DIR = Path("/home/jupyter/cs229-md-prediction")
+BASE_DIR = Path("/home/jupyter/cs229_submission")
 DATA_DIR = BASE_DIR / "data/processed"
 
 PROTEIN_TRAIN = DATA_DIR / "protein_level_train.csv"

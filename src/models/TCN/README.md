@@ -26,7 +26,7 @@ The TCN uses dilated causal convolutions to capture multi-scale temporal pattern
 python train_tcn.py \
     --train_csv ../../../data/metadata/splits/protein_level_train.csv \
     --test_csv ../../../data/metadata/splits/protein_level_test.csv \
-    --npy_dir ../../../data/gcs_mount/data/processed/v4/features_50pct/scalar \
+    --npy_dir ../../../data/gcs_mount/data/features_50pct/scalar \
     --batch_size 1 \
     --epochs 200 \
     --patience 50 \
@@ -38,7 +38,7 @@ python train_tcn.py \
 python train_tcn.py \
     --train_csv ../../../data/metadata/splits/protein_level_train.csv \
     --test_csv ../../../data/metadata/splits/protein_level_test.csv \
-    --npy_dir ../../../data/gcs_mount/data/processed/v4/features_50pct/tica/projections \
+    --npy_dir ../../../data/gcs_mount/data/features_50pct/tica/projections \
     --output_dir ../../../results/tcn_tica
 ```
 
@@ -47,7 +47,7 @@ python train_tcn.py \
 python train_tcn.py \
     --train_csv ../../../data/metadata/splits/protein_level_train.csv \
     --test_csv ../../../data/metadata/splits/protein_level_test.csv \
-    --npy_dir ../../../data/gcs_mount/data/processed/v4/features_50pct/sanity_check_features \
+    --npy_dir ../../../data/gcs_mount/data/features_50pct/oracle_features \
     --output_dir ../../../results/tcn_oracle
 ```
 
