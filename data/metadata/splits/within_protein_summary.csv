@@ -1,0 +1,24 @@
+family,n_total,n_multi,n_single,eligible,n_folds,reason
+Adenosine,32,11,21,True,5,
+Adrenergic,57,17,40,True,5,
+Arrestin,11,1,10,False,0,min_class=1 < 3
+Cannabinoid,12,0,12,False,0,min_class=0 < 3
+Chemokine,12,7,5,True,5,
+Dopamine,4,0,4,False,0,min_class=0 < 3
+Free_Fatty_Acid,2,1,1,False,0,min_class=1 < 3
+G_Protein,6,0,6,False,0,min_class=0 < 3
+Histamine,3,0,3,False,0,min_class=0 < 3
+Lipid,9,5,4,True,4,
+Melatonin,1,1,0,False,0,min_class=0 < 3
+Metabotropic_Glutamate,5,0,5,False,0,min_class=0 < 3
+Muscarinic,13,3,10,True,3,
+Neuropeptide_Y,1,0,1,False,0,min_class=0 < 3
+Opioid,13,4,9,True,4,
+Orexin,7,4,3,True,3,
+Peptide,20,9,11,True,5,
+Prostaglandin,1,0,1,False,0,min_class=0 < 3
+Purinergic,10,3,7,True,3,
+Secretin,3,1,2,False,0,min_class=1 < 3
+Serotonin,5,2,3,False,0,min_class=2 < 3
+Smoothened,6,0,6,False,0,min_class=0 < 3
+Visual,9,1,8,False,0,min_class=1 < 3

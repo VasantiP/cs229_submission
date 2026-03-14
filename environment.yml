@@ -1,0 +1,135 @@
+name: cs229_md_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # ============================================================
+  # CORE PYTHON
+  # ============================================================
+  - python=3.10.19
+  - pip=25.3
+  
+  # ============================================================
+  # MD ANALYSIS (Critical)
+  # ============================================================
+  - mdanalysis=2.9.0
+  - mdtraj=1.10.3
+  - biopython=1.86
+  - netcdf4=1.7.2
+  - pytng=0.3.3
+  - pyedr=0.8.0
+  - mda-xdrlib=0.2.0
+  - griddataformats=1.0.2
+  
+  # ============================================================
+  # SCIENTIFIC COMPUTING
+  # ============================================================
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - pandas=2.3.3
+  - numexpr=2.14.1
+  
+  # ============================================================
+  # MACHINE LEARNING
+  # ============================================================
+  - scikit-learn=1.7.2
+  - statsmodels=0.14.6
+  
+  # PyTorch (add if needed)
+  # Uncomment for deep learning models:
+  # - pytorch>=2.0.0
+  # - torchvision
+  # - torchaudio
+  
+  # ============================================================
+  # VISUALIZATION
+  # ============================================================
+  - matplotlib=3.10.8
+  - matplotlib-base=3.10.8
+  - seaborn=0.13.2
+  - seaborn-base=0.13.2
+  
+  # ============================================================
+  # JUPYTER (For development and analysis)
+  # ============================================================
+  - jupyter=1.1.1
+  - jupyterlab=4.5.3
+  - ipykernel=7.1.0
+  - ipython=8.37.0
+  - ipywidgets=8.1.8
+  - notebook=7.5.3
+  
+  # ============================================================
+  # DATA PROCESSING
+  # ============================================================
+  - h5py=3.15.1
+  - pytables=3.9.2
+  - joblib=1.5.3
+  
+  # ============================================================
+  # UTILITIES
+  # ============================================================
+  - tqdm=4.67.2
+  - pyyaml=6.0.3
+  - click  # For CLI tools
+  
+  # ============================================================
+  # DEVELOPMENT TOOLS (Optional but recommended)
+  # ============================================================
+  # Uncomment for development:
+  # - black
+  # - isort
+  # - flake8
+  # - pytest
+  # - pytest-cov
+  
+  # ============================================================
+  # PIP PACKAGES (not available in conda)
+  # ============================================================
+  - pip:
+      # Google Cloud Storage
+      - google-cloud-storage
+   
+      # Deep learning for time series
+      - deeptime==0.4.5
+      
+      # PyEMMA for Markov State Models (optional)
+      - pyemma==2.5.12
+      
+      # Parallel processing
+      - pathos==0.3.5
+      - multiprocess==0.70.19
+      
+      # Utilities
+      - python-dotenv  # For environment variables
+      
+      # Experiment tracking (optional)
+      # - wandb
+      
+      # Advanced models (install if needed)
+      # - keras-tcn  # For TCN models
+      # - mamba-ssm  # For state-space models (requires CUDA)
+      
+# ============================================================
+# PLATFORM NOTES
+# ============================================================
+# macOS (Apple Silicon): This file works as-is
+# Linux: Remove macOS-specific packages if errors occur
+# Windows: May need to adjust some package versions
+#
+# GPU Support:
+# - For NVIDIA GPU, install PyTorch with CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# - For Apple Silicon (M1/M2), PyTorch uses Metal acceleration automatically
+#
+# ============================================================
+# REPRODUCIBILITY
+# ============================================================
+# To create environment:
+#   conda env create -f environment.yml
+#
+# To update environment:
+#   conda env update -f environment.yml --prune
+#
+# To export your exact environment:
+#   conda env export --no-builds > environment_exact.yml

@@ -1,0 +1,62 @@
+# Train/Test Split - Protein Family Holdout
+# Generated: v3_deduped
+# Source: data_processed_v3_base_dataset_deduped.csv
+# Total samples: 247 (190 train, 57 test)
+
+TEST_FAMILIES:
+  Peptide: 20 samples (9 multi, 11 single)
+  Adenosine: 32 samples (11 multi, 21 single)
+  Serotonin: 5 samples (2 multi, 3 single)
+
+TRAIN_FAMILIES:
+  Adrenergic: 57 samples (17 multi, 40 single)
+  Arrestin: 7 samples (1 multi, 6 single)
+  Cannabinoid: 4 samples (0 multi, 4 single)
+  Chemokine: 12 samples (7 multi, 5 single)
+  Dopamine: 4 samples (0 multi, 4 single)
+  Free_Fatty_Acid: 2 samples (1 multi, 1 single)
+  G_Protein: 4 samples (0 multi, 4 single)
+  Histamine: 3 samples (0 multi, 3 single)
+  Lipid: 9 samples (5 multi, 4 single)
+  Melatonin: 1 samples (1 multi, 0 single)
+  Metabotropic_Glutamate: 5 samples (0 multi, 5 single)
+  Muscarinic: 13 samples (3 multi, 10 single)
+  Neuropeptide_Y: 1 samples (0 multi, 1 single)
+  Opioid: 13 samples (4 multi, 9 single)
+  Orexin: 6 samples (4 multi, 2 single)
+  Prostaglandin: 1 samples (0 multi, 1 single)
+  Purinergic: 10 samples (3 multi, 7 single)
+  Secretin: 3 samples (1 multi, 2 single)
+  Smoothened: 6 samples (0 multi, 6 single)
+  Visual: 9 samples (1 multi, 8 single)
+# Train/Test Split - Protein Family Holdout
+# Generated: v3_deduped
+# Source: data_processed_v3_base_dataset_deduped.csv
+# Total samples: 247 (190 train, 57 test)
+
+TEST_FAMILIES:
+  Peptide: 20 samples (9 multi, 11 single)
+  Adenosine: 32 samples (11 multi, 21 single)
+  Serotonin: 5 samples (2 multi, 3 single)
+
+TRAIN_FAMILIES:
+  Adrenergic: 57 samples (17 multi, 40 single)
+  Arrestin: 7 samples (1 multi, 6 single)
+  Cannabinoid: 4 samples (0 multi, 4 single)
+  Chemokine: 12 samples (7 multi, 5 single)
+  Dopamine: 4 samples (0 multi, 4 single)
+  Free_Fatty_Acid: 2 samples (1 multi, 1 single)
+  G_Protein: 4 samples (0 multi, 4 single)
+  Histamine: 3 samples (0 multi, 3 single)
+  Lipid: 9 samples (5 multi, 4 single)
+  Melatonin: 1 samples (1 multi, 0 single)
+  Metabotropic_Glutamate: 5 samples (0 multi, 5 single)
+  Muscarinic: 13 samples (3 multi, 10 single)
+  Neuropeptide_Y: 1 samples (0 multi, 1 single)
+  Opioid: 13 samples (4 multi, 9 single)
+  Orexin: 6 samples (4 multi, 2 single)
+  Prostaglandin: 1 samples (0 multi, 1 single)
+  Purinergic: 10 samples (3 multi, 7 single)
+  Secretin: 3 samples (1 multi, 2 single)
+  Smoothened: 6 samples (0 multi, 6 single)
+  Visual: 9 samples (1 multi, 8 single)

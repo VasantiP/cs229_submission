@@ -1,0 +1,31 @@
+# Train/Test Split - Protein Family Holdout
+# Generated: v3
+# Source: data_processed_v3_base_dataset.csv
+# Total samples: 307 (235 train, 72 test)
+
+TEST_FAMILIES:
+  Peptide: 27 samples (12 multi, 15 single)
+  Adenosine: 40 samples (13 multi, 27 single)
+  Serotonin: 5 samples (2 multi, 3 single)
+
+TRAIN_FAMILIES:
+  Adrenergic: 67 samples (21 multi, 46 single)
+  Arrestin: 8 samples (1 multi, 7 single)
+  Cannabinoid: 5 samples (0 multi, 5 single)
+  Chemokine: 16 samples (9 multi, 7 single)
+  Dopamine: 5 samples (0 multi, 5 single)
+  Free_Fatty_Acid: 3 samples (1 multi, 2 single)
+  G_Protein: 6 samples (0 multi, 6 single)
+  Histamine: 3 samples (0 multi, 3 single)
+  Lipid: 11 samples (6 multi, 5 single)
+  Melatonin: 1 samples (1 multi, 0 single)
+  Metabotropic_Glutamate: 5 samples (0 multi, 5 single)
+  Muscarinic: 17 samples (4 multi, 13 single)
+  Neuropeptide_Y: 1 samples (0 multi, 1 single)
+  Opioid: 19 samples (4 multi, 15 single)
+  Orexin: 6 samples (4 multi, 2 single)
+  Prostaglandin: 1 samples (0 multi, 1 single)
+  Purinergic: 12 samples (4 multi, 8 single)
+  Secretin: 4 samples (1 multi, 3 single)
+  Smoothened: 7 samples (0 multi, 7 single)
+  Visual: 11 samples (1 multi, 10 single)
