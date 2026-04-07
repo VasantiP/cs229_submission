@@ -1,5 +1,5 @@
 # CS229: Early Prediction of Multi-State Behavior in MD Simulations
-### Stanford CS229 Final Project | Winter 2026
+### Stanford CS229 Final Project&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Winter 2026&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;🏆 Best Project Award
 
 This repository contains the code for predicting exhibition of protein conformational transitions in GPCR molecular dynamics (MD) trajectories. We evaluate handcrafted features versus pretrained structural embeddings (ESM-IF) using temporal architectures including TCN, Mamba, and Transformers.
 
